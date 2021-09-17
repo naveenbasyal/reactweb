@@ -12,10 +12,10 @@ const App = () => {
       <Navbar />
 
       <Switch>
-        <Route path="process.env.PUBLIC_URL + /" exact component={Home} />
-        <Route path="process.env.PUBLIC_URL + /services" exact component={Services} />
-        <Route path="process.env.PUBLIC_URL + /about" exact component={About} />
-        <Route path="process.env.PUBLIC_URL + /contact" exact component={Contact} />
+        <Route path="process.env.PUBLIC_URL + /reactweb" exact component={Home} />
+        <Route path="process.env.PUBLIC_URL + /reactweb/services" exact component={Services} />
+        <Route path="process.env.PUBLIC_URL + /reactweb/about" exact component={About} />
+        <Route path="process.env.PUBLIC_URL + /reactweb/contact" exact component={Contact} />
 //         <Route exact component={ErrorPage} />
       </Switch>
     </>
