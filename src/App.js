@@ -1,6 +1,4 @@
 import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
@@ -18,7 +16,7 @@ const App = () => {
         <Route path="/services" exact component={Services} />
         <Route path="/about" exact component={About} />
         <Route path="/contact" exact component={Contact} />
-        <Route component={ErrorPage} />
+//         <Route component={ErrorPage} />
       </Switch>
     </>
   );
